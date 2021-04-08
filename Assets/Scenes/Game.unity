@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 52fcefd712182d743a781fde12426775, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1656,7 +1656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0699b5b389110ed42be4d8207e83c078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedCam: 2
+  speedCam: 1.5
 --- !u!1001 &600935131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,19 +1890,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.002131376
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4415841
+      value: 0.42597726
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.00020408988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.89721996
+      value: 0.9047314
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_RootOrder
@@ -1910,15 +1910,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.211
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 52.41
+      value: 50.425
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 90dc198d1b1d5714896db107b9f660bf, type: 3}
       propertyPath: m_LocalScale.x
@@ -2218,7 +2218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMovement: 1.5
-  speedRun: 2
+  speedRun: 1.5
   spawnManager: {fileID: 23282144}
 --- !u!54 &735661338
 Rigidbody:
@@ -2880,7 +2880,7 @@ GameObject:
   - component: {fileID: 1162317228}
   m_Layer: 0
   m_Name: Collectable01
-  m_TagString: Lucioles01
+  m_TagString: ItemsVitesse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

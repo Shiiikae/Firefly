@@ -8,6 +8,7 @@ TagManager:
   - Lucioles01
   - Lucioles02
   - Obstacles
+  - ItemsVitesse
   layers:
   - Default
   - TransparentFX
