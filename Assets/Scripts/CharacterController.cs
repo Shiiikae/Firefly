@@ -8,12 +8,14 @@ public class CharacterController : MonoBehaviour
     GameObject gameManager;
 
     public float speedMovement = 1.5f;
-    public float speedRun = 2f;
+    public float speedRun = 1f;
 
     public SpawnManager spawnManager;
 
-    float currentTime = 0f;
-    float startingTime = 10f;
+    /*float currentTime = 0f;
+    float startingTime = 10f;*/
+
+    private Coroutine timer;
 
     // Start is called before the first frame update
     void Start()
@@ -77,16 +79,9 @@ public class CharacterController : MonoBehaviour
             gameManager.GetComponent<ScoringSystem>().score -= 20;
         }
 
-        if(other.gameObject.tag == "Items")
+        if(other.gameObject.tag == "ItemsVitesse")
         {
-            Timer();
-            transform.Translate(0f, 0f, speedRun * 2);
-                //Mettre une ligne de quand le timer s'arrete la vitesse revient a la normal.
+
         }
-    }
-    void Timer()
-    {
-        currentTime = startingTime;
-        currentTime -= 1 * Time.deltaTime;
     }
 }
